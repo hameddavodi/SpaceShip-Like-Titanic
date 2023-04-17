@@ -16,3 +16,4 @@
   - PassengerId - Id for each passenger in the test set.
   - Transported - The target. For each passenger, predict either True or False.
 
+So I am still struggling to do better predictions but now I got the accurecy of 0.74. Still working on it
