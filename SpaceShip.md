@@ -90,7 +90,8 @@ fit_transform method of the label_encoder object is used to fit the encoder to t
 
 ### Correlation Heatmap
 
-```pyhon
+```python
+
 Selected_features = [
     
     'HomePlanet', 'CryoSleep', 'Destination', 'Age', 'VIP',
@@ -105,22 +106,6 @@ sns.heatmap(X.corr(), annot=True, cmap="RdYlGn")
 plt.show()
 ```
 This block of code is selecting a subset of features from the train_df dataframe and assigning it to the variable X. The selected features are:
-
-    'HomePlanet'
-    'CryoSleep'
-    'Destination'
-    'Age'
-    'VIP'
-    'RoomService'
-    'FoodCourt'
-    'ShoppingMall'
-    'Spa'
-    'VRDeck'
-    'Deck'
-    'Num'
-    'side'
-
-These features will be used for further analysis or modeling.
 
 Next, this code is creating a heatmap using sns.heatmap() function from the seaborn library. This heatmap shows the correlation between each pair of features in the X DataFrame.
 
