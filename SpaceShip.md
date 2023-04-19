@@ -460,3 +460,4 @@ Results:
 Using a threshold of 0.188 guarantees a sensitivity of 0.981 and a specificity of 0.289, i.e. a false positive rate of 71.12%.
 Accuracy: 0.8093959731543624
 ```
+Obviously, the Random Forest performed better than Logistic Regression.
